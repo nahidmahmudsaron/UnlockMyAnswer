@@ -28,7 +28,7 @@
 ## 🚀 কীভাবে দেখবেন?
 
 আপনি সরাসরি ব্রাউজার থেকে প্রজেক্টটি ব্যবহার করে দেখতে পারেন:
-👉 **[Netlify Live Link](https://unlockmyanswer.netlify.app/)**
+👉 **[UnlockMyAnswer](https://unlockmyanswer.netlify.app/)**
 
 ---
 
