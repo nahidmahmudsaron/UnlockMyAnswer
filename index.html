@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnlockMyAnswer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+
+    <div class="calculator">
+
+        <div id="display" class="display">0</div>
+
+        <div class="buttons">
+
+            <button class="clear">C</button>
+            <button>(</button>
+            <button>)</button>
+            <button>/</button>
+
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>*</button>
+
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>-</button>
+
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>+</button>
+
+            <button>0</button>
+            <button>.</button>
+            <button class="equal">=</button>
+
+        </div>
+
+    </div>
+    <div class="credit">
+        <h2>Nahid Mahmud Saron</h2>
+        <p>Android App Developer</p>
+        <h3>🚀 UnlockMyAnswer</h3>
+    </div>
+
+    <!-- Unlock Modal -->
+
+    <div id="overlay" class="overlay hidden">
+
+        <div class="modal">
+
+            <div class="lock">🔒</div>
+
+            <h2>UnlockMyAnswer</h2>
+
+            <div class="badge">
+                FREE PLAN
+            </div>
+
+            <p class="subtitle">
+                Complete one fun challenge to unlock your answer.
+            </p>
+
+            <div id="taskCard">
+
+                <h3 id="taskTitle">
+                    ✍️ Typing Challenge
+                </h3>
+
+                <p id="taskText"></p>
+
+            </div>
+
+            <input id="taskInput" type="text" placeholder="Type here...">
+
+            <button id="unlockBtn">
+
+                Verify
+
+            </button>
+
+            <p id="message"></p>
+
+            <small>
+                🎲 Every calculation gives a random challenge.
+            </small>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
